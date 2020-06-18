@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+	<head>
+		 <meta charset="utf-8">
+		<link rel=" stylesheet" href="../css/Style.css" />
+		<title> My Nation Reads</title>
+	</head>	
+	<body>
+		  <header>
+      <div class="container">
+        <div id="branding">
+          <h1> MY NATION READS</h1>
+        </div>
+        <nav>
+          <ul>
+            <li ><a href="Home.php">Home</a></li>
+            <li><a href="NewBook.php">Add Book</a></li>
+            <li><a href="MyLibrary.php">My Library</a></li>
+            <li><a href="MyAccount.php">My Account</a></li>
+            <li><a href="About.php">About</a></li>
+            <li ><a href="login.php">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+	<table>
+		
+		<tr>
+
+		</tr>
+		<tr>
+			<th>
+				
+				<div class = "bigPoster"><img class="poster"src="../img/B9.jpg">
+				
+				</div>
+			</th>
+			<td>
+			    <h3 class="title">  حديث المساء </h3>
+		   <hr class="hr1">
+				<p class="writer"> الكاتب أدهم شرقاوي <br>
+			السعر : 40 ريال
+			     </p> 
+			<hr class="hr1">
+				<p class="review"> في كل شخص تعرفه شخص لا تعرفه<br>
+				وراء كل قصة تعرفها قصة لا تعرفها <br>
+				وبجانب كل حدث تراه حدث لا تراه<br>
+                هذا الكتاب قراءة مختلفة في الاشياء <br>
+				</p>
+				<hr class="hr1">
+			</td>
+		</tr>
+		
+		<tr>
+			<td> <h2 class="cell">To Download the PDF Version click <span id=pdf><a href="../files/B9.pdf" target="_blank"> here</a></span></h2>  </td>
+			<td>
+			<form> <input type="button"  name="add_to" id="internal_add" value="Add Book To My Library"></form>
+			</td>
+			
+			
+		</tr>
+		
+	</table>
+	
+	<footer>
+      <p><?php
+      include("footer.php")?>
+						</p>
+    </footer>
+	
+	</body>
+</html>
